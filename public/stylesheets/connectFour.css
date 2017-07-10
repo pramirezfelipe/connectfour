@@ -1,0 +1,57 @@
+h1 {
+	text-align:center;
+	margin-bottom:5px;
+}
+
+#gamePrompt {
+	text-align:center;
+	width:400px;
+	height: 20px;
+	margin:0 auto;
+	font-size:20px;
+	font-weight:bold;
+	color:blue;
+	margin-bottom:20px;
+}
+
+#gameButton {
+	display:block;
+    margin: 0 auto;
+	border-radius:3px;
+}
+
+#gameBase {
+	width:640px;  
+	margin:0 auto;
+	padding-top:60px;
+}
+
+#gameGrid {
+	position:relative;
+	width:434px;
+	height:374px;
+	margin:0 auto;
+	border-style:solid;
+}
+
+td {
+	border-style:solid;
+	border-radius:50px;
+}
+
+.chip {
+	position:absolute;
+	width:52px;
+	height:52px;
+	border-radius:50px;
+	transition:all .3s;
+	-webkit-transition:all .3s;
+}
+
+.chip.red { 
+	background:red;
+}
+
+.chip.yellow {
+	background:yellow;
+}
